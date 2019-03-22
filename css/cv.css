@@ -1,0 +1,498 @@
+*
+{
+    font-family: cairo;
+}
+
+body {
+  background: rgb(204,204,204);
+}
+
+page
+{
+  background: white;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 0.5cm;
+  box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+}
+
+page[size="A4"]
+{
+  width: 29.7cm;
+  height: 39.0cm;
+}
+
+.d1
+{
+    display: inline-block;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 4%
+
+}
+
+.pic
+{
+   width: 150px;
+    height: 150px;
+}
+
+.d2
+{
+    display: inline-block;
+    margin-top: 3%;
+}
+
+.name
+{
+    font-size: 38px;
+    font-weight: bold;
+    color: #003666;
+}
+
+.summary
+{
+    color: #003666;
+    font-size: 20px;
+    display: block;
+}
+
+/* if there is picture
+
+.pic1
+{
+    width: 300px;
+    height: 300px;
+    margin-left: 17%;
+    margin-top: 2%;
+}
+
+*/
+
+.d3
+{
+    width: 51%;
+    height: 88%;
+    border-left: 2px solid #D3D3D3 ;
+    margin-left: 14.5%;
+    display: inline-block;
+}
+
+.cir1
+{
+    height: 40px;
+    width: 40px;
+    background-color: #004480;
+    border-radius: 50%;
+    margin: 3.5% 0px 0px -3.7%;
+    display: inline-block;
+}
+
+.icon1
+{
+
+    font-size: 20px;
+    margin: 20% 0px 0px 18%;
+    color: white;
+}
+
+.edu,.cer,.courses,.info
+{
+    font-size: 24px;
+    font-weight: bold;
+    color: #003666;
+    margin: 3.5% 0px 0px 3%;
+}
+
+.date1,.date3,.date4
+{
+    margin: 0px 4.8% 0px -18%;
+    font-size: 16px;
+}
+
+.cir2
+{
+    height: 10px;
+    width: 10px;
+    background-color: #004480;
+    border-radius: 50%;
+    margin: 3.8% 0px 0px -0.8%;
+    display: inline-block;
+}
+
+.cir_small,.cir_small2,.cir_small1
+{
+    height: 10px;
+    width: 10px;
+    background-color: #004480;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.cir_small
+{
+    margin: 3.8% 0px 0px -1.1%;
+}
+
+.cir_small1
+{
+    margin: 3.8% 0px 0px 1%;
+}
+
+.cir_small2
+{
+    margin: 3.8% 0px 0px -0.8%;
+}
+
+.tit_edu
+{
+    font-size: 20px;
+    margin-left: 5.6%;
+    font-weight: bold;
+}
+
+.d5
+{
+    margin-top: 3px;
+}
+
+.date2,.date5
+{
+    margin: 0px 13.5% 0px -18%;
+    font-size: 16px;
+}
+
+.bach
+{
+    font-size: 16px;
+}
+
+.d6
+{
+    margin: 5px 0px 0px 6.8%;
+    font-size: 16px;
+}
+
+.d7
+{
+    margin-top: 2%;
+}
+
+.cir3,.cir7,.cir9,.cir11,.cir12,.cir13
+{
+    height: 40px;
+    width: 40px;
+    background-color: #004480;
+    border-radius: 50%;
+    margin: 3.5% 0px 0px -3.7%;
+    display: inline-block;
+}
+
+.icon2,.icon3
+{
+
+    font-size: 20px;
+    margin: 28% 0px 0px 18%;
+    color: white;
+}
+
+.project
+{
+    font-size: 24px;
+    font-weight: bold;
+    color: #003666;
+    margin: 3.5% 0px 0px 3%;
+}
+
+.tit_pro1,.tit_pro2,.tit_pro3
+{
+    font-size: 18px;
+    margin-left: 5.6%;
+    font-weight: bold;
+}
+
+.href1,.href2,.href3
+{
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 5%;
+}
+
+.d11,.d14
+{
+    margin-top: 4%
+}
+
+.d9,.d12,.d15
+{
+    font-size: 16px;
+    margin-left: 6.9%
+}
+
+.list1,.list3,.list5
+{
+    margin: 4% 0px 0px -4%
+}
+
+.list2
+{
+    margin-left: -3%
+}
+
+.d17
+{
+    margin-top: 3%;
+}
+
+.d19
+{
+    margin-top: 1%
+}
+
+.tit_cer,.tit_course
+{
+    font-size: 16px;
+    margin-left: 5.6%;
+    font-weight: bold;
+}
+
+.cir8
+{
+    height: 10px;
+    width: 10px;
+    background-color: #004480;
+    border-radius: 50%;
+    margin: 3.8% 0px 0px 1%;
+    display: inline-block;
+}
+
+.icon3
+{
+
+    font-size: 20px;
+    margin: 28% 0px 0px 25%;
+    color: white;
+}
+
+.href4
+{
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 6.7%;
+}
+
+.href5
+{
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+.span5
+{
+    font-size: 16px;
+}
+
+.div_contact
+{
+    margin-left: 6.5%
+}
+
+.icon4
+{
+
+    font-size: 20px;
+    margin: 28% 0px 0px 28%;
+    color: white;
+}
+
+.icon5,.icon11
+{
+
+    font-size: 20px;
+    margin: 25% 0px 0px 28%;
+    color: white;
+}
+
+.cir10
+{
+    height: 10px;
+    width: 10px;
+    background-color: #004480;
+    border-radius: 50%;
+    margin: 3.8% 0px 0px -0.9%;
+    display: inline-block;
+}
+
+.d21
+{
+    display: inline-block;
+    float: right;
+    margin:1% -5px 0px 0px;
+    height: 35%;
+    width: 30%;
+}
+
+.d22,.d23
+{
+    margin: 10% 0px 0px 0px;
+}
+
+.d24
+{
+    margin: 10% 0px 0px -0.8%;
+}
+
+.d25,.d26,.d27,.d28,.d29,.d30,.d31,.d36,.soft
+{
+    margin: 10% 0px 0px -1%;
+}
+
+.d36
+{
+    margin: 7% 0px 0px 0%;
+}
+
+.icon6,.icon7,.icon8,.icon9,.icon10
+{
+    font-size: 18px;
+    color: #004480;
+}
+
+.icon20
+{
+    font-size: 24px;
+    color: #004480;
+}
+
+
+.name1,.phone,.birth,.email,.postal,.male
+{
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 5%
+}
+
+.male
+{
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 6.2%
+}
+
+.icon12
+{
+    font-size: 22px;
+    color: #004480;
+}
+
+.github,.facebook,.twitter,.instagram
+{
+    width: 50px;
+    height: 50px;
+}
+
+.linkedin
+{
+    width: 60px;
+    height: 60px;
+}
+
+.a_linkedin
+{
+    margin-left: 5%
+}
+
+.a_facebook,.a_github
+{
+    margin-left: 8%
+}
+
+.a_twitter
+{
+    margin: 7% 0px 0px 19%;
+}
+
+.a_instagram
+{
+    margin-left: 10%
+}
+
+.icon12
+{
+
+    font-size: 22px;
+    margin: 25% 0px 0px 16%;
+    color: white;
+}
+
+.d31_d2,.d32_d2,.d33_d2,.d31_d3,.d32_d3,.d33_d3,.d32_d1,.d33_d1,.d31_d1,.d34_d1,.d34_d2,.d33_d4,.d35_d1,.d35_d2,.soft_d1,.soft_d2,.d35_new,.d31_d4,.d31_d5,.bugs_d1
+
+{
+    font-size: 16px;
+    font-weight: 500;
+    border: 1.5px solid lightgrey;
+    height:30px;
+    border-radius: 20%;
+    text-align: center;
+
+}
+
+.d32_d2,.d33_d2,.d31_d1,.d31_d4
+{
+     width: 60px;
+}
+
+.d31_d5
+{
+  width: 65px
+}
+
+.d31_d3,.d34_d2,.d32_d3,.d35_d2
+{
+    width: 130px
+}
+.d33_d4
+{
+    width: 50px
+}
+
+.d32,.d33,.d34,.d35,.soft_d2,.bugs_d1
+{
+    margin-top: 4%;
+}
+
+.d32_d1,.d33_d1,.d31_d2
+{
+    width: 80px;
+}
+.d33_d3
+{
+  width: 70px;
+}
+.d35_d1,.d34_d1,.d35_new
+{
+    width: 160px;
+}
+
+.soft_d1,.soft_d2,.bugs_d1
+{
+  width: 310px;
+}
+
+.d31_d1,.d31_d2,.d31_d3,.d32_d1,.d32_d2,.d32_d3,.d33_d1,.d33_d2,.d33_d3,.d34_d1,.d34_d2,.d33_d4,.d35_d1,.d35_d2,.soft_d1,.soft_d2,.d35_new,.d31_d4,.d31_d5
+{
+    display: inline-block;
+}
+
+.d31_d2,.d31_d3,.d32_d2,.d32_d3,.d33_d2,.d33_d3,.d34_d2,.d35_d2,.d31_d4
+{
+    margin-left: 5%
+}
+
+.d33_d4,.d31_d5
+{
+    margin-left: 2%;
+}
+
+/*   Front-End Cv */
